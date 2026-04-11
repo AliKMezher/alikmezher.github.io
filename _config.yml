@@ -27,7 +27,7 @@ author:
   name             : "Ali K. Mezher"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Austin/Texas/United States"
+  location         : "Austin/ Texas/ United States"
   employer         : "University of Texas at Austin"
   uri              : # URL
   email            : "alimezher@utexas.edu" 
@@ -45,7 +45,7 @@ author:
   researchgate     : "https://www.researchgate.net/profile/Ali-Mezher-10?ev=hdr_xprf"
   scopus           : # URL
   #zotero           : # URL
-  UT-austin        : "https://www.ma.utexas.edu/component/cobalt/item/5374-mezher-ali?Itemid=1259"
+  UTaustin        : "https://math.utexas.edu/directory/ali-mezher"
 
 
   # Repositories and software development
