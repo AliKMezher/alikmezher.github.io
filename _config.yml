@@ -41,10 +41,11 @@ author:
   orcid            : "https://orcid.org/0000-0002-9215-1804"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Ali-Mezher-10?ev=hdr_xprf"
   scopus           : # URL
-  zotero           : # URL
+  #zotero           : # URL
+  UT-austin        : "https://www.ma.utexas.edu/component/cobalt/item/5374-mezher-ali?Itemid=1259"
 
 
   # Repositories and software development
@@ -57,7 +58,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -74,7 +75,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          :  "https://x.com/ali_joohy4054"
+  twitter          : # 
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
