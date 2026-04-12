@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* **Ph.D. in Mathematical Physics, Analysis of PDEs**, University of Texas at Austin, Department of Mathematics, 2023–present  
+* **Ph.D. student in Mathematical Physics, Analysis of PDEs**, University of Texas at Austin, Department of Mathematics, 2023–present  
   Supervisor: **Professor Thomas Chen**
 
 * **M.S. in Mathematical Analysis of Nonlinear Dispersive PDEs**, Research Institute for Mathematical Sciences (RIMS), Kyoto University, 2020–2023  
