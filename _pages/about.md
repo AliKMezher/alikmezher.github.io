@@ -1,30 +1,43 @@
 ---
 permalink: /
-title: "About Me: I am fascinated by how the universe works!"
+title: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Welcome! I am Ali Mezher, a PhD researcher in the **Mathematics Department** at **The University of Texas at Austin**. My research interest is **Applied Mathematics**.  In particular, nonlinear Dynamical systems, analysis of PDEs,   renormalizing groups, mathematical physics, harmonic analysis, Quantum field theory, and many body systems. 
+Welcome! I’m **Ali Mezher**, a **Ph.D. student** in the **Department of Mathematics** at **The University of Texas at Austin**, advised by **[Thomas Chen](https://tc-math.github.io/web/index.html)**. I work at the intersection of **analysis of PDEs** and **mathematical physics**, focusing on **quantum many-body dynamics** and **quantum field theory**.
 
-My work is guided by a deep interest in evolution, scale, and structure: how systems change over time, how local interactions shape global phenomena, and how mathematics can describe the transition between different levels of complexity. With an analytical foundation shaped during my time at RIMS, Kyoto University, I continue to draw on harmonic analysis and dynamical systems as part of a wider effort to solve problems at the exact crossroads of analysis and physics. 
+**Tagline (what I study):** rigorous mechanisms that connect **microscopic interactions** to **macroscopic behavior**—through scaling limits, resonance phenomena, and related **renormalization group (RG)** viewpoints.
 
-At a deeper level, I see mathematics as a way of making hidden mechanisms visible. It is a discipline of precision, but also of vision: a means of discovering the patterns, structures, and principles that lie beneath complicated phenomena.
+> **Current focus (Spring 2026):** finalizing a manuscript on the **dynamical formation of Bose–Einstein condensation**, and developing analytic tools for resonance/decay phenomena in coupled particle–field models.
 
-### Research Interests
-I am deeply interested in the mathematical foundations of physical systems, bridging fine-scale structures with macroscopic behavior. My recent and ongoing work involves:
-* **Bose-Einstein Condensation:** Investigating the dynamical formation, energy decay, and macroscopic ground state occupation of BECs.
-* **Quantum Electrodynamics:** Analyzing resonant decay and the rigorous application of unitary dilation operators on Fock spaces.
-* **Rigorous PDE Analysis:** Exploring stability and evolution in complex models—including the Zakharov-Kuznetsov (ZK) equation—and analyzing the behavior of wave functions, such as non-conserved $L^2$ norms in specific time-dependent systems.
+Before UT Austin, I completed an M.S. in Applied Mathematics at **University of Kufa**. I then pursued research training at the **Research Institute for Mathematical Sciences (RIMS), Kyoto University**, under professor **[Kenji Nakanishi](https://www.kurims.kyoto-u.ac.jp/en/list/nakanishi.html)**, working on nonlinear dispersive PDE and dynamical systems, including **well-posedness**, **stability**, **invariant/center manifolds**, and **bifurcation phenomena**.
 
-### Recent News
-* **[April 2026]** Currently finalizing a manuscript on the dynamical formation of Bose-Einstein Condensation for submission.
-* **[Spring 2026]** Involved in course preparation and grading for Linear Algebra at UT Austin.
+At UT Austin, I study analytical questions motivated by quantum models: rigorous evolution, resonance and decay, and scaling limits that connect fine-scale structure to effective macroscopic dynamics.
 
-### Beyond Mathematics
-I am an advocate for efficient academic workflows and making mathematics visually accessible. I specialize in advanced LaTeX typesetting (frequently utilizing Overleaf and VSCode with BibTeX) and have a strong interest in open-source development, Linux environments, and optimizing technical setups for mathematical research. Extending my philosophy of making hidden mathematical structures visible, I am also currently working on translating these concepts into accessible, visual content for my YouTube channel.
+### Research snapshot
+A few themes that currently organize my work:
+* **BEC dynamics:** identifying mechanisms and estimates that govern dynamical formation and relaxation behavior.
+* **Particle–field models (QFT/QED-type):** spectral and resonance analysis underlying decay and effective dynamics.
+* **Scale and RG viewpoints:** how effective parameters and models evolve across length/energy scales, and how to make these steps mathematically controlled.
+
+### Research interests
+* Bose–Einstein condensation and quantum many-body dynamics  
+* Quantum field theory methods in PDE; spectral/resonance questions  
+* Renormalization group ideas and scale-dependent effective descriptions  
+* Dispersive PDE and harmonic analysis  
+
+### Selected writing
+* Manuscript in preparation on dynamical formation of Bose–Einstein condensation (submission planned 2026).  
+  *(Link will appear here when a preprint is available.)*
+
+### Collaboration
+I’m especially interested in collaborations and discussions around dispersive PDE, spectral/resonance analysis, scaling limits, and RG-informed perspectives in mathematical physics.
+
+### Beyond mathematics
+Beyond mathematics, I enjoy building efficient research workflows (coding and reproducible computing), exploring machine learning tools, and staying active through the gym and travel.
 
 ---
-*Feel free to browse my [publications](/publications/), view my [CV](/cv/), or reach out to me via [email](mailto:alimezher@utexas.edu) for collaborations.*
+*Feel free to browse my [publications](/publications/), view my [CV](/cv/), or reach out via [email](mailto:alimezher@utexas.edu).*
