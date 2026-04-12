@@ -15,8 +15,6 @@ Before UT Austin, I completed an M.S. in Applied Mathematics at **University of 
 
 At UT Austin, my work focuses on rigorous evolution problems motivated by quantum models: resonance/decay mechanisms, scaling limits, and operator-analytic tools that connect fine-scale structure to effective macroscopic dynamics.
 
-> **Current focus (Spring 2026):** finalizing a manuscript on the **dynamical formation of Bose–Einstein condensation**, and developing analytic tools for **resonance/decay** in coupled particle–field models.
-
 ### Research snapshot
 A few themes that currently organize my work:
 * **BEC dynamics:** dynamical formation mechanisms, relaxation/energy behavior, and effective descriptions.
