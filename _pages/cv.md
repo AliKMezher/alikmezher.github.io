@@ -38,7 +38,7 @@ Work experience
 
 Workshops
 ======
-* **2024:** *Particle Interactive Systems: Analysis and Computational Methods [https://www.slmath.org/summer-schools/1035]**,  
+* **2024:** [Particle Interactive Systems: Analysis and Computational Methods](https://www.slmath.org/summer-schools/1035)**,  
   Simons Laufer Mathematical Sciences Institute, University of California, Berkeley
 
 Funding and Scholarships 
