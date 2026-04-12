@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "About Me"
+title: "About Me: I am fascinated by how the universe works!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Welcome! I am Ali Mezher, a PhD researcher in mathematics at **The University of Texas at Austin**. My interests lie broadly in mathematical physics, harmonic analysis, dynamical systems, and partial differential equations. I am fascinated by the way rigorous analysis can uncover the structure of complex systems, especially when microscopic quantum interactions produce rich macroscopic behavior.
+Welcome! I am Ali Mezher, a PhD researcher in the **Mathematics Department** at **The University of Texas at Austin**. My research interest is **Applied Mathematics**.  In particular, nonlinear Dynamical systems, analysis of PDEs,   renormalizing groups, mathematical physics, harmonic analysis, Quantum field theory, and many body systems. 
 
 My work is guided by a deep interest in evolution, scale, and structure: how systems change over time, how local interactions shape global phenomena, and how mathematics can describe the transition between different levels of complexity. With an analytical foundation shaped during my time at RIMS, Kyoto University, I continue to draw on harmonic analysis and dynamical systems as part of a wider effort to solve problems at the exact crossroads of analysis and physics. 
 
