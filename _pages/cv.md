@@ -41,7 +41,7 @@ Workshops
 * **2024:** [Particle Interactive Systems: Analysis and Computational Methods](https://www.slmath.org/summer-schools/1035),  
   Simons Laufer Mathematical Sciences Institute, University of California, Berkeley
 
-Funding and Scholarships 
+Fundings and Scholarships 
 ======
 * **2020:** **MEXT Scholarship**  
   Awarded one of the three positions provided by the Japanese Ministry of Education, Culture, Sports, Science and Technology (MEXT) for Iraq
