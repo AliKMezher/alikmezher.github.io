@@ -7,37 +7,35 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I’m **Ali Mezher**, a **Ph.D. student** in the **Department of Mathematics** at **The University of Texas at Austin**, advised by **[Thomas Chen](https://tc-math.github.io/web/index.html)**. I work at the intersection of **analysis of PDEs** and **mathematical physics**, focusing on **quantum many-body dynamics** and **quantum field theory**.
+Welcome! I’m **Ali Mezher**, a **Ph.D. student** in the **Department of Mathematics** at **The University of Texas at Austin**, advised by **[Thomas Chen](https://tc-math.github.io/web/index.html)**. I work at the intersection of **analysis of PDEs** and **mathematical physics**, with an emphasis on **quantum many-body dynamics** and **quantum field theory**.
 
-**Tagline (what I study):** rigorous mechanisms that connect **microscopic interactions** to **macroscopic behavior**—through scaling limits, resonance phenomena, and related **renormalization group (RG)** viewpoints.
-
-> **Current focus (Spring 2026):** finalizing a manuscript on the **dynamical formation of Bose–Einstein condensation**, and developing analytic tools for resonance/decay phenomena in coupled particle–field models.
+My research is organized around one guiding question: **how microscopic structure and local interactions produce macroscopic behavior**. This naturally leads to **scale-dependent analysis** (including **renormalization group (RG)** viewpoints) and to **spectral and resonance theory**, where long-time dynamics, decay, and effective descriptions are encoded in the analytic structure of operators.
 
 Before UT Austin, I completed an M.S. in Applied Mathematics at **University of Kufa**. I then pursued research training at the **Research Institute for Mathematical Sciences (RIMS), Kyoto University**, under professor **[Kenji Nakanishi](https://www.kurims.kyoto-u.ac.jp/en/list/nakanishi.html)**, working on nonlinear dispersive PDE and dynamical systems, including **well-posedness**, **stability**, **invariant/center manifolds**, and **bifurcation phenomena**.
 
-At UT Austin, I study analytical questions motivated by quantum models: rigorous evolution, resonance and decay, and scaling limits that connect fine-scale structure to effective macroscopic dynamics.
+At UT Austin, my work focuses on rigorous evolution problems motivated by quantum models: resonance/decay mechanisms, scaling limits, and operator-analytic tools that connect fine-scale structure to effective macroscopic dynamics.
+
+> **Current focus (Spring 2026):** finalizing a manuscript on the **dynamical formation of Bose–Einstein condensation**, and developing analytic tools for **resonance/decay** in coupled particle–field models.
 
 ### Research snapshot
 A few themes that currently organize my work:
-* **BEC dynamics:** identifying mechanisms and estimates that govern dynamical formation and relaxation behavior.
-* **Particle–field models (QFT/QED-type):** spectral and resonance analysis underlying decay and effective dynamics.
-* **Scale and RG viewpoints:** how effective parameters and models evolve across length/energy scales, and how to make these steps mathematically controlled.
+* **BEC dynamics:** dynamical formation mechanisms, relaxation/energy behavior, and effective descriptions.
+* **Particle–field models (QFT/QED-type):** resonance-driven decay and rigorous dynamics in coupled systems.
+* **Spectral and resonance theory:** operator-analytic structures underlying long-time behavior (resolvents, resonances, spectral measures).
+* **Scale and RG viewpoints:** how effective models and parameters evolve across length/energy scales, and how to control these transitions mathematically.
 
-### Research interests
-* Bose–Einstein condensation and quantum many-body dynamics  
-* Quantum field theory methods in PDE; spectral/resonance questions  
-* Renormalization group ideas and scale-dependent effective descriptions  
-* Dispersive PDE and harmonic analysis  
-
-### Selected writing
-* Manuscript in preparation on dynamical formation of Bose–Einstein condensation (submission planned 2026).  
-  *(Link will appear here when a preprint is available.)*
-
-### Collaboration
-I’m especially interested in collaborations and discussions around dispersive PDE, spectral/resonance analysis, scaling limits, and RG-informed perspectives in mathematical physics.
+  
+### Methods / Toolkit
+Depending on the problem, I draw on:
+* **Quantum field theory tools** (operator-algebraic and Fock space methods)
+* **Spectral theory** and **scattering theory**
+* **Partial differential equations (PDE)**, especially **dispersive** and **evolution** equations
+* **Harmonic analysis**
+* **Functional analysis** and **operator theory**
+* **Dynamical systems** and **stability theory**
+* **Renormalization group (RG)** and **multiscale analysis**
 
 ### Beyond mathematics
-Beyond mathematics, I enjoy building efficient research workflows (coding and reproducible computing), exploring machine learning tools, and staying active through the gym and travel.
+Beyond mathematics, I enjoy software development and learning about computing systems, including internetworking and databases.
 
----
 *Feel free to browse my [publications](/publications/), view my [CV](/cv/), or reach out via [email](mailto:alimezher@utexas.edu).*
