@@ -20,3 +20,20 @@ I am a Ph.D. student in the Department of Mathematics at The University of Texas
 Before joining UT Austin, I completed my M.Sc. in Applied Mathematics at Kyoto University, where I was affiliated with the Research Institute for Mathematical Sciences (RIMS), under the supervision of Professor [Kenji Nakanishi](https://www.kurims.kyoto-u.ac.jp/en/list/nakanishi.html).
 
 *Feel free to browse my [publications](/publications/), view my [CV](/cv/), or contact me by [email](mailto:alimezher@utexas.edu).*
+
+
+
+
+## Selected Papers:
+
+{% assign featured_papers = site.publications | where: "featured", true | sort: "date" | reverse %}
+
+<ul>
+{% for paper in featured_papers limit: 3 %}
+  <li>
+    <a href="{{ paper.url | relative_url }}">{{ paper.title }}</a>
+    {% if paper.venue %}<br><em>{{ paper.venue }}</em>{% endif %}
+    {% if paper.date %} ({{ paper.date | date: "%Y" }}){% endif %}
+  </li>
+{% endfor %}
+</ul>
