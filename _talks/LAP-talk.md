@@ -2,8 +2,8 @@
 title: "Limiting Absorption Principle"
 collection: talks
 type: "Talk"
-permalink: /talks/2014-02-01-talk-2.md
+permalink: /talks/LAP-talk.md
 venue: ""
-date: 2014-02-01
+date: 2026-09-02
 location: "University of Texas at Austin/ Department of Mathematics."
 ---
