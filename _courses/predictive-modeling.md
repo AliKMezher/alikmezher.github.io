@@ -7,14 +7,20 @@ order: 1
 first_video_id: "VIDEO_ID_1"
 
 videos:
-  - title: "Lecture 1: Orthonormal basis, inner, outer, and tensor product"
+  - title: "Introduction, orthonormal basis, inner, outer, and tensor product"
     id: "VIDEO_ID_1"
 
-  - title: "Lecture 2: Hilbert spaces, orthonormal basis, and linear compact operators"
+  - title: "Hilbert spaces, orthonormal basis, and linear compact operators"
     id: "VIDEO_ID_2"
 
-  - title: "Lecture 3: Markov Monte Carlo series and Metropolis–Hastings algorithm"
+  - title: "Markov Monte Carlo series and Metropolis–Hastings algorithm"
     id: "VIDEO_ID_3"
+
+  - title: "Polynomial chaos expectation, stochastic process, Karhunen–Loève theorem"
+    id: "VIDEO_ID_4"
+
+  - title: "Kolmogorov’s Two-Series theorem and Sazanov’s theorem"
+    id: "VIDEO_ID_5"
 ---
 
 ## Playlist
@@ -33,11 +39,11 @@ allowfullscreen>
 <div class="course-grid">
   {% for video in page.videos %}
     <div class="course-card">
-      <a href="https://www.youtube.com/watch?v={{ watch?v=nQQ--PTt8IE }}" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.youtube.com/watch?v={{ nQQ--PTt8IE&list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO }}" target="_blank" rel="noopener noreferrer">
         <img src="https://i.ytimg.com/vi/{{ video.id }}/hqdefault.jpg" alt="{{ video.title }}">
       </a>
       <p class="course-title">
-        <a href="https://www.youtube.com/watch?v={{ watch?v=nQQ--PTt8IE }}" target="_blank" rel="noopener noreferrer">{{ video.title }}</a>
+        <a href="https://www.youtube.com/watch?v={{ video.id }}" target="_blank" rel="noopener noreferrer">{{ video.title }}</a>
       </p>
     </div>
   {% endfor %}
