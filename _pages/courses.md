@@ -1,9 +1,8 @@
 ---
-layout: archive
+layout: single
 title: "Courses"
 permalink: /courses/
 author_profile: true
-published: true
 ---
 
 Welcome to my courses. Click a thumbnail to view the full playlist on YouTube.
