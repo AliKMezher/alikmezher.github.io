@@ -1,23 +1,21 @@
 ---
 permalink: /
-title: "Home Page"
+title: "About Me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-**Home Page - Ali Mezher**
+I am a Ph.D. student in the **[Department of Mathematics](https://math.utexas.edu/directory/ali-mezher)** at **The University of Texas at Austin**, working with Professor [Thomas Chen](https://tc-math.github.io/web/index.html).
 
-Ph.D. Student
-Department of Mathematics
-University of Texas at Austin
+My research interests lie in **analysis of PDEs** and **mathematical physics**.
 
-Advisor: [Thomas Chen](https://tc-math.github.io/web/index.html)
+My current work focuses on:
+* Spectral and dynamical questions related to quantum field theory.
+* Analysis of nonlinear dispersive PDEs.
+* Scaling limits of quantum dynamical systems.
 
-**Research interests:** Analysis of PDEs. Mathematical Physics. Quantum Many-Body Dynamics. Nonlinear Dispersive Equations.
-
-**Research.**
-My work is motivated by the mathematical analysis of mechanisms governing the transition from microscopic quantum many-body systems to effective macroscopic dynamics, and related evolution equations. Prior to UT Austin, I completed my M.Sc. in applied mathematics at the Research Institute for Mathematical Sciences (RIMS), Kyoto University under [Kenji Nakanishi](https://www.kurims.kyoto-u.ac.jp/en/list/nakanishi.html), where I developed my background in the dynamical systems of nonlinear dispersive PDEs.
+Before joining UT Austin, I completed my M.Sc. in Applied Mathematics at Kyoto University, where I was affiliated with the Research Institute for Mathematical Sciences (RIMS), under the supervision of Professor [Kenji Nakanishi](https://www.kurims.kyoto-u.ac.jp/en/list/nakanishi.html).
 
 *Feel free to browse my [publications](/publications/), view my [CV](/cv/), or contact me by [email](mailto:alimezher@utexas.edu).*
