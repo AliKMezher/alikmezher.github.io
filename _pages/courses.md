@@ -1,17 +1,33 @@
 ---
-layout: archive
-title: "Courses"
-permalink: /courses/
-author_profile: true
+title: "Predictive Modeling"
+layout: single
+permalink: /courses/predictive-modeling/
+classes: wide
+order: 1
+
+videos:
+  - title: "Orthonormal basis, inner, outer, and tensor product"
+    url: "https://www.youtube.com/watch?v=nQQ--PTt8IE&list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO&index=1"
+
+  - title: "Hilbert spaces, orthonormal basis, and linear compact operators"
+    url: "https://www.youtube.com/watch?v=iuYGn7C4NjE&list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO&index=2"
+
+  - title: "Markov Monte Carlo series and Metropolis–Hastings algorithm"
+    url: "https://www.youtube.com/watch?v=fI2CYAE22Ag&list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO&index=3"
 ---
 
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; margin-top: 20px;">
+## Videos in this course
 
-  <div style="text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-    <a href="https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID_HERE" target="_blank" style="text-decoration: none; color: inherit;">
-      <img src="https://img.youtube.com/vi/FIRST_VIDEO_ID_HERE/maxresdefault.jpg" alt="Predictive Modeling" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-      <h3 style="margin-top: 12px; font-size: 1.25em;">Predictive Modeling</h3>
-    </a>
-  </div>
-
+<div class="course-grid">
+  {% for video in page.videos %}
+    {% assign vid = video.url | split: 'v=' | last | split: '&' | first %}
+    <div class="course-card">
+      <a href="{{ video.url }}" target="_blank" rel="noopener noreferrer">
+        <img src="https://i.ytimg.com/vi/{{ vid }}/hqdefault.jpg" alt="{{ video.title }}">
+      </a>
+      <p class="course-title">
+        <a href="{{ video.url }}" target="_blank" rel="noopener noreferrer">{{ video.title }}</a>
+      </p>
+    </div>
+  {% endfor %}
 </div>
