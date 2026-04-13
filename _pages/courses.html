@@ -10,31 +10,38 @@ author_profile: true
   .course-card {
     text-align: center;
     transition: transform 0.2s;
-    text-decoration: none; /* Keeps the image from getting an underline */
+    text-decoration: none !important; /* Blocks standard underlines */
+    border-bottom: none !important; /* Blocks theme border-underlines */
     display: block;
   }
   .course-card:hover {
     transform: scale(1.02);
+    text-decoration: none !important;
+    border-bottom: none !important;
   }
   
-  /* We changed this from an h3 to a standard div, so now it will perfectly 
-     inherit your theme's native link color! */
+  /* The course title text */
   .course-title {
-    font-size: 1.25em; /* Makes it the size of an h3 heading */
-    font-weight: bold; /* Makes it bold */
+    font-size: 1.25em; 
+    font-weight: bold; 
     margin-top: 15px;
     transition: opacity 0.2s;
-    color: inherit; /* Forces it to use the link color */
+    color: inherit; 
+    text-decoration: none !important;
+    border-bottom: none !important;
   }
+  
+  /* When hovering, the text fades slightly but DOES NOT underline */
   .course-card:hover .course-title {
-    text-decoration: underline;
     opacity: 0.8; 
+    text-decoration: none !important;
+    border-bottom: none !important;
   }
 
   /* This controls the images */
   .course-image {
-    width: 80%; /* Made 20% smaller */
-    margin: 0 auto; /* Keeps the smaller image perfectly centered */
+    width: 80%; 
+    margin: 0 auto; 
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     display: block;
