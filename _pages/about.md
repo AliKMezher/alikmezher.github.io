@@ -11,7 +11,7 @@ I am a Ph.D. student in the Department of Mathematics at The University of Texas
 
 **My research interests:** Analysis of PDEs and Mathematical Physics.
 
-**Currently:** I am working on spectral and dynamical problems in quantum field theory. In particular;
+**Currently,** I am working on some spectral and dynamical problems in quantum field theory. In particular,
 * Scaling limits of quantum dynamical systems.
 * Bose-Einstein Condensation (BEC). 
 
