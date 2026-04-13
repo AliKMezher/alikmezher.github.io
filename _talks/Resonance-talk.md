@@ -2,7 +2,7 @@
 title: "Resonance and Metastable states in Perturbation Theory."
 collection: talks
 type: "Talk"
-permalink: /talks/_talks/2012-03-01-talk-1
+permalink: /talks/_talks/Resonance-talk.md
 venue: "J. Analysis"
 date: 2026-09-01.
 location: "University of Texas at Austin, Department of Mathematics."
