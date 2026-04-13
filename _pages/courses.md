@@ -11,7 +11,7 @@ classes: wide
   {% for course in sorted_courses %}
     <div class="course-card">
       <a href="{{ course.url | relative_url }}">
-        <img src="{{ course.thumb }}" alt="{{ course.title }}">
+        <img src="https://i.ytimg.com/vi/{{ course.first_video_id }}/hqdefault.jpg" alt="{{ course.title }}">
       </a>
       <p class="course-title">
         <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
