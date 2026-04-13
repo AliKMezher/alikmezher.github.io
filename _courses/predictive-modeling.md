@@ -7,13 +7,13 @@ order: 1
 
 videos:
   - title: "Lecture 1"
-    url: "https://www.youtube.com/watch?v=YOUR_FIRST_VIDEO_LINK_ID"
+    url: "https://www.youtube.com/watch?v=nQQ--PTt8IE&list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO&index=1"
 
   - title: "Lecture 2"
-    url: "https://www.youtube.com/watch?v=YOUR_SECOND_VIDEO_LINK_ID"
+    url: "https://www.youtube.com/watch?v=iuYGn7C4NjE&list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO&index=2"
 
   - title: "Lecture 3"
-    url: "https://www.youtube.com/watch?v=YOUR_THIRD_VIDEO_LINK_ID"
+    url: "https://www.youtube.com/watch?v=fI2CYAE22Ag&list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO&index=3"
 ---
 
 ## Playlist
