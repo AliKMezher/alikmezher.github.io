@@ -1,5 +1,5 @@
 ---
-title: "Predictive Modeling"
+title: "Predictive Modeling for Engineering"
 collection: teaching
 type: "Graduate Course"
 permalink: /teaching/2025-PM.m
