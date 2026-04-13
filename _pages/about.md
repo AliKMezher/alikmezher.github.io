@@ -22,7 +22,7 @@ Before joining UT Austin, I completed my M.Sc. in Applied Mathematics at Kyoto U
 *Feel free to browse my [publications](/publications/), view my [CV](/cv/), or contact me by [email](mailto:alimezher@utexas.edu).*
 
 
-## Recent Papers
+## Recent Works:
 
 {% assign recent_papers = site.publications | sort: "date" | reverse %}
 
