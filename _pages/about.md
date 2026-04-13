@@ -11,10 +11,9 @@ I am a Ph.D. student in the Department of Mathematics at The University of Texas
 
 **My research interests:** Analysis of PDEs and Mathematical Physics.
 
-**Current focus:**
-* Spectral and dynamical problems in quantum field theory.
+**Currently:** I am working on spectral and dynamical problems in quantum field theory. In particular;
 * Scaling limits of quantum dynamical systems.
-* Analysis of nonlinear dispersive PDEs.
+* Bose-Einstein Condensation (BEC). 
 
 
 Before joining UT Austin, I completed my M.Sc. in Applied Mathematics at Kyoto University, where I was affiliated with the Research Institute for Mathematical Sciences (RIMS), under the supervision of Professor [Kenji Nakanishi](https://www.kurims.kyoto-u.ac.jp/en/list/nakanishi.html).
