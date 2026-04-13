@@ -19,12 +19,14 @@ main:
     
   - title: "Portfolio"
     url: /portfolio/
+
+     - title: "CV"
+    url: /cv/
         
-  - title: "My YouTube Channel "
+  - title: "Courses "
     url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
+ 
     
   # - title: "CV"
   #   url: /cv-json/
