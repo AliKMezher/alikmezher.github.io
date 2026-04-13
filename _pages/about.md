@@ -13,7 +13,7 @@ I am a Ph.D. student in the Department of Mathematics at The University of Texas
 
 **Currently,** I am working on some spectral and dynamical problems in quantum field theory. In particular,
 * Scaling limits of quantum dynamical systems.
-* Bose-Einstein Condensation (BEC). 
+* Bose-Einstein Condensation (BEC) formation. 
 
 
 Before joining UT Austin, I completed my M.Sc. in Applied Mathematics at Kyoto University, where I was affiliated with the Research Institute for Mathematical Sciences (RIMS), under the supervision of Professor [Kenji Nakanishi](https://www.kurims.kyoto-u.ac.jp/en/list/nakanishi.html).
