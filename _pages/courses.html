@@ -5,21 +5,54 @@ permalink: /my-courses/
 author_profile: true
 ---
 
-<p style="font-size: 1.1em; margin-bottom: 20px;">Welcome to my courses. Click a thumbnail to view the full playlist on YouTube.</p>
+<style>
+  /* This makes the whole card clickable and adds the pop-out animation */
+  .course-card {
+    text-align: center;
+    transition: transform 0.2s;
+    text-decoration: none; /* Keeps the image from getting an underline */
+    display: block;
+  }
+  .course-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Because we removed "color: inherit", this text will automatically 
+     become the exact same color as the rest of the links in your theme! */
+  .course-title {
+    margin-top: 15px;
+    transition: opacity 0.2s;
+  }
+  .course-card:hover .course-title {
+    text-decoration: underline;
+    opacity: 0.8; /* Gives it a nice slight fade when hovered */
+  }
+
+  /* This controls the images */
+  .course-image {
+    width: 80%; /* Made 20% smaller! */
+    margin: 0 auto; /* Keeps the smaller image perfectly centered */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: block;
+  }
+</style>
+
+<p style="font-size: 1.1em; margin-bottom: 20px;">Welcome to my courses. Click a thumbnail or title to view the full playlist on YouTube.</p>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; margin-top: 20px;">
 
-  <div style="text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO" target="_blank" style="text-decoration: none; color: inherit;">
-      <img src="https://img.youtube.com/vi/nQQ--PTt8IE/maxresdefault.jpg" alt="Predictive Modeling" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-      <h3 style="margin-top: 0;">Predictive Modeling</h3>
+  <div>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO" target="_blank" class="course-card">
+      <img src="https://img.youtube.com/vi/nQQ--PTt8IE/maxresdefault.jpg" alt="Predictive Modeling" class="course-image">
+      <h3 class="course-title">Predictive Modeling</h3>
     </a>
   </div>
 
-  <div style="text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" style="text-decoration: none; color: inherit;">
-      <img src="https://img.youtube.com/vi/r6iTJ0JfoCs/maxresdefault.jpg" alt="حل تمارين كتاب رويدن في التحليل الرياضي" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 10px;">
-      <h3 style="margin-top: 0; direction: rtl;">حل تمارين كتاب رويدن في التحليل الرياضي</h3>
+  <div>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" class="course-card">
+      <img src="https://img.youtube.com/vi/r6iTJ0JfoCs/maxresdefault.jpg" alt="حل تمارين كتاب رويدن في التحليل الرياضي" class="course-image">
+      <h3 class="course-title" style="direction: rtl;">حل تمارين كتاب رويدن في التحليل الرياضي</h3>
     </a>
   </div>
 
