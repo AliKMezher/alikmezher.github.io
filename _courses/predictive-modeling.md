@@ -4,18 +4,20 @@ layout: single
 permalink: /courses/predictive-modeling/
 classes: wide
 order: 1
-header:
-  teaser: /images/predictive-modeling-thumb.jpg
+thumb: "https://i.ytimg.com/vi/VIDEO_ID_1/hqdefault.jpg"
 
 videos:
   - title: "Lecture 1: Orthonormal basis, inner, outer, and tensor product"
     url: "https://www.youtube.com/watch?v=VIDEO_ID_1"
+    thumb: "https://i.ytimg.com/vi/VIDEO_ID_1/hqdefault.jpg"
 
   - title: "Lecture 2: Hilbert spaces, orthonormal basis, and linear compact operators"
     url: "https://www.youtube.com/watch?v=VIDEO_ID_2"
+    thumb: "https://i.ytimg.com/vi/VIDEO_ID_2/hqdefault.jpg"
 
   - title: "Lecture 3: Markov Monte Carlo series and Metropolis–Hastings algorithm"
     url: "https://www.youtube.com/watch?v=VIDEO_ID_3"
+    thumb: "https://i.ytimg.com/vi/VIDEO_ID_3/hqdefault.jpg"
 ---
 
 ## Playlist
@@ -31,8 +33,15 @@ allowfullscreen>
 
 ## Videos in this course
 
-<ul>
+<div class="course-grid">
   {% for video in page.videos %}
-    <li><a href="{{ video.url }}" target="_blank">{{ video.title }}</a></li>
+    <div class="course-card">
+      <a href="{{ video.url }}" target="_blank">
+        <img src="{{ video.thumb }}" alt="{{ video.title }}">
+      </a>
+      <p class="course-title">
+        <a href="{{ video.url }}" target="_blank">{{ video.title }}</a>
+      </p>
+    </div>
   {% endfor %}
-</ul>
+</div>
