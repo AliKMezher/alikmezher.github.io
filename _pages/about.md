@@ -22,16 +22,14 @@ Before joining UT Austin, I completed my M.Sc. in Applied Mathematics at Kyoto U
 *Feel free to browse my [publications](/publications/), view my [CV](/cv/), or contact me by [email](mailto:alimezher@utexas.edu).*
 
 
+## Recent Papers
 
-
-## Selected Papers:
-
-{% assign featured_papers = site.publications | where: "featured", true | sort: "date" | reverse %}
+{% assign recent_papers = site.publications | sort: "date" | reverse %}
 
 <ul>
-{% for paper in featured_papers limit: 3 %}
+{% for paper in recent_papers limit: 5 %}
   <li>
-    <a href="{{ paper.url | relative_url }}">{{ paper.title }}</a>
+    <a href="{{ paper.paperurl }}">{{ paper.title }}</a>
     {% if paper.venue %}<br><em>{{ paper.venue }}</em>{% endif %}
     {% if paper.date %} ({{ paper.date | date: "%Y" }}){% endif %}
   </li>
