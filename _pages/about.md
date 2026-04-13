@@ -1,24 +1,25 @@
 ---
 permalink: /
-title: "About Me"
+title: "Home Page"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-Welcome! I’m **Ali Mezher**, a **Ph.D. student** in the **Department of Mathematics** at **The University of Texas at Austin**, advised by **[Thomas Chen](https://tc-math.github.io/web/index.html)**.
+**Home Page - Ali Mezher**
 
-I work in **analysis of PDEs** and **mathematical physics**, with particular interest in **quantum many-body dynamics** and **nonlinear dispersive equations**. My research is motivated by the problem of understanding how microscopic structure and interactions lead to effective macroscopic behavior, and by the mathematical analysis of the mechanisms that govern this transition.
+Ph.D. Student
+Department of Mathematics
+University of Texas at Austin
 
-Before joining UT Austin, I studied at the **Research Institute for Mathematical Sciences (RIMS), Kyoto University**, under Professor **[Kenji Nakanishi](https://www.kurims.kyoto-u.ac.jp/en/list/nakanishi.html)**, where I developed my background in **nonlinear dispersive PDE** and **dynamical systems**.
+Advisor: [Thomas Chen](https://tc-math.github.io/web/index.html)
 
-At UT Austin, my work focuses on rigorous questions in quantum dynamical models and related evolution equations.
+[Email](mailto:alimezher@utexas.edu)
+[CV](/cv/)
+[Publications](/publications/)
 
-### Research Interests
-- Analysis of PDEs
-- Mathematical Physics
-- Quantum Many-Body Dynamics
-- Nonlinear Dispersive Equations
+**Research interests:** Analysis of PDEs. Mathematical Physics. Quantum Many-Body Dynamics. Nonlinear Dispersive Equations.
 
-*Feel free to browse my [publications](/publications/), view my [CV](/cv/), or contact me by [email](mailto:alimezher@utexas.edu).*
+**Research.**
+My work is motivated by the mathematical analysis of mechanisms governing the transition from microscopic quantum many-body systems to effective macroscopic dynamics, and related evolution equations. Prior to UT Austin, I completed my M.Sc. in applied mathematics at the Research Institute for Mathematical Sciences (RIMS), Kyoto University under [Kenji Nakanishi](https://www.kurims.kyoto-u.ac.jp/en/list/nakanishi.html), where I developed my background in the dynamical systems of nonlinear dispersive PDEs.
