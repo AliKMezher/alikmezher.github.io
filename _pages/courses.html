@@ -6,64 +6,44 @@ author_profile: true
 ---
 
 <style>
-  /* This makes the whole card clickable and adds the pop-out animation */
   .course-card {
     text-align: center;
-    transition: transform 0.2s;
-    text-decoration: none !important; /* Blocks standard underlines */
-    border-bottom: none !important; /* Blocks theme border-underlines */
     display: block;
   }
-  .course-card:hover {
-    transform: scale(1.02);
-    text-decoration: none !important;
-    border-bottom: none !important;
-  }
-  
-  /* The course title text */
   .course-title {
     font-size: 1.25em; 
     font-weight: bold; 
     margin-top: 15px;
-    transition: opacity 0.2s;
     color: inherit; 
     text-decoration: none !important;
     border-bottom: none !important;
+    transition: opacity 0.2s;
+    display: inline-block;
   }
-  
-  /* When hovering, the text fades slightly but DOES NOT underline */
-  .course-card:hover .course-title {
+  .course-title:hover {
     opacity: 0.8; 
-    text-decoration: none !important;
-    border-bottom: none !important;
   }
-
-  /* This controls the images */
-  .course-image {
-    width: 80%; 
-    margin: 0 auto; 
+  .youtube-embed {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Keeps the perfect video shape */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    display: block;
+    border: none;
   }
 </style>
 
-<p style="font-size: 1.1em; margin-bottom: 20px;">Welcome to my courses. Click a thumbnail or title to view the full playlist on YouTube.</p>
+<p style="font-size: 1.1em; margin-bottom: 20px;">Welcome to my courses. Watch below or click a title to view the full playlist on YouTube.</p>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; margin-top: 20px;">
 
-  <div>
-    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO" target="_blank" class="course-card">
-      <img src="https://img.youtube.com/vi/nQQ--PTt8IE/maxresdefault.jpg" alt="Predictive Modeling" class="course-image">
-      <div class="course-title">Predictive Modeling</div>
-    </a>
+  <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO" target="_blank" class="course-title">Predictive Modeling</a>
   </div>
 
-  <div>
-    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" class="course-card">
-      <img src="https://img.youtube.com/vi/r6iTJ0JfoCs/maxresdefault.jpg" alt="حل تمارين كتاب رويدن في التحليل الرياضي" class="course-image">
-      <div class="course-title" style="direction: rtl;">حل تمارين كتاب رويدن في التحليل الرياضي</div>
-    </a>
+  <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" class="course-title" style="direction: rtl;">حل تمارين كتاب رويدن في التحليل الرياضي</a>
   </div>
 
 </div>
