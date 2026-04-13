@@ -1,14 +1,21 @@
 ---
-layout: archive
+layout: single
 permalink: /courses/
 title: "Courses"
 author_profile: true
-entries_layout: grid
+classes: wide
 ---
 
-{% include base_path %}
-
-{% assign sorted_courses = site.courses | sort: "order" %}
-{% for post in sorted_courses %}
-  {% include archive-single.html type="grid" %}
-{% endfor %}
+<div class="course-grid">
+  {% assign sorted_courses = site.courses | sort: "order" %}
+  {% for course in sorted_courses %}
+    <div class="course-card">
+      <a href="{{ course.url | relative_url }}">
+        <img src="{{ course.header.teaser | relative_url }}" alt="{{ course.title }}">
+      </a>
+      <p class="course-title">
+        <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+      </p>
+    </div>
+  {% endfor %}
+</div>
