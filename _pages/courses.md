@@ -7,12 +7,16 @@ classes: wide
 ---
 
 <div class="course-grid">
-  {% assign sorted_courses = site.courses | sort: "order" %}
-  {% for course in sorted_courses %}
-    <div class="course-card">
-      <a href="{{ course.url | relative_url }}">
-        <p class="course-title">{{ course.title }}</p>
+
+  <div class="course-card">
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO" target="_blank" rel="noopener noreferrer">
+      <img src="https://i.ytimg.com/vi/nQQ--PTt8IE/hqdefault.jpg" alt="Predictive Modeling">
+    </a>
+    <p class="course-title">
+      <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO" target="_blank" rel="noopener noreferrer">
+        Predictive Modeling
       </a>
-    </div>
-  {% endfor %}
+    </p>
+  </div>
+
 </div>
