@@ -41,28 +41,3 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-
-
-.course-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 24px;
-  margin-top: 20px;
-}
-
-.course-card {
-  text-align: center;
-}
-
-.course-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  display: block;
-}
-
-.course-title {
-  margin-top: 10px;
-  font-weight: 600;
-  line-height: 1.4;
-}
