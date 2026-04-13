@@ -17,20 +17,23 @@ author_profile: true
     transform: scale(1.02);
   }
   
-  /* Because we removed "color: inherit", this text will automatically 
-     become the exact same color as the rest of the links in your theme! */
+  /* We changed this from an h3 to a standard div, so now it will perfectly 
+     inherit your theme's native link color! */
   .course-title {
+    font-size: 1.25em; /* Makes it the size of an h3 heading */
+    font-weight: bold; /* Makes it bold */
     margin-top: 15px;
     transition: opacity 0.2s;
+    color: inherit; /* Forces it to use the link color */
   }
   .course-card:hover .course-title {
     text-decoration: underline;
-    opacity: 0.8; /* Gives it a nice slight fade when hovered */
+    opacity: 0.8; 
   }
 
   /* This controls the images */
   .course-image {
-    width: 80%; /* Made 20% smaller! */
+    width: 80%; /* Made 20% smaller */
     margin: 0 auto; /* Keeps the smaller image perfectly centered */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -45,14 +48,14 @@ author_profile: true
   <div>
     <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO" target="_blank" class="course-card">
       <img src="https://img.youtube.com/vi/nQQ--PTt8IE/maxresdefault.jpg" alt="Predictive Modeling" class="course-image">
-      <h3 class="course-title">Predictive Modeling</h3>
+      <div class="course-title">Predictive Modeling</div>
     </a>
   </div>
 
   <div>
     <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" class="course-card">
       <img src="https://img.youtube.com/vi/r6iTJ0JfoCs/maxresdefault.jpg" alt="حل تمارين كتاب رويدن في التحليل الرياضي" class="course-image">
-      <h3 class="course-title" style="direction: rtl;">حل تمارين كتاب رويدن في التحليل الرياضي</h3>
+      <div class="course-title" style="direction: rtl;">حل تمارين كتاب رويدن في التحليل الرياضي</div>
     </a>
   </div>
 
