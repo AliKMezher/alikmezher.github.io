@@ -4,20 +4,17 @@ layout: single
 permalink: /courses/predictive-modeling/
 classes: wide
 order: 1
-thumb: "https://i.ytimg.com/vi/VIDEO_ID_1/hqdefault.jpg"
+first_video_id: "VIDEO_ID_1"
 
 videos:
   - title: "Lecture 1: Orthonormal basis, inner, outer, and tensor product"
-    url: "https://www.youtube.com/watch?v=VIDEO_ID_1"
-    thumb: "https://i.ytimg.com/vi/VIDEO_ID_1/hqdefault.jpg"
+    id: "VIDEO_ID_1"
 
   - title: "Lecture 2: Hilbert spaces, orthonormal basis, and linear compact operators"
-    url: "https://www.youtube.com/watch?v=VIDEO_ID_2"
-    thumb: "https://i.ytimg.com/vi/VIDEO_ID_2/hqdefault.jpg"
+    id: "VIDEO_ID_2"
 
   - title: "Lecture 3: Markov Monte Carlo series and Metropolis–Hastings algorithm"
-    url: "https://www.youtube.com/watch?v=VIDEO_ID_3"
-    thumb: "https://i.ytimg.com/vi/VIDEO_ID_3/hqdefault.jpg"
+    id: "VIDEO_ID_3"
 ---
 
 ## Playlist
@@ -36,11 +33,11 @@ allowfullscreen>
 <div class="course-grid">
   {% for video in page.videos %}
     <div class="course-card">
-      <a href="{{ video.url }}" target="_blank">
-        <img src="{{ video.thumb }}" alt="{{ video.title }}">
+      <a href="https://www.youtube.com/watch?v={{ watch?v=nQQ--PTt8IE }}" target="_blank" rel="noopener noreferrer">
+        <img src="https://i.ytimg.com/vi/{{ video.id }}/hqdefault.jpg" alt="{{ video.title }}">
       </a>
       <p class="course-title">
-        <a href="{{ video.url }}" target="_blank">{{ video.title }}</a>
+        <a href="https://www.youtube.com/watch?v={{ watch?v=nQQ--PTt8IE }}" target="_blank" rel="noopener noreferrer">{{ video.title }}</a>
       </p>
     </div>
   {% endfor %}
