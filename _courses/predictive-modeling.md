@@ -4,23 +4,16 @@ layout: single
 permalink: /courses/predictive-modeling/
 classes: wide
 order: 1
-first_video_id: "VIDEO_ID_1"
 
 videos:
-  - title: "Introduction, orthonormal basis, inner, outer, and tensor product"
-    id: "nQQ--PTt8IE&list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO"
+  - title: "Lecture 1"
+    url: "https://www.youtube.com/watch?v=YOUR_FIRST_VIDEO_LINK_ID"
 
-  - title: "Hilbert spaces, orthonormal basis, and linear compact operators"
-    id: "iuYGn7C4NjE&list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO&index=2"
+  - title: "Lecture 2"
+    url: "https://www.youtube.com/watch?v=YOUR_SECOND_VIDEO_LINK_ID"
 
-  - title: "Markov Monte Carlo series and Metropolis–Hastings algorithm"
-    id: "fI2CYAE22Ag&list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO&index=3"
-
-  - title: "Polynomial chaos expectation, stochastic process, Karhunen–Loève theorem"
-    id: "yvXxQ3_oosk&list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO&index=4"
-
-  - title: "Kolmogorov’s Two-Series theorem and Sazanov’s theorem"
-    id: "bLHdSwuRzqM&list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO&index=5"
+  - title: "Lecture 3"
+    url: "https://www.youtube.com/watch?v=YOUR_THIRD_VIDEO_LINK_ID"
 ---
 
 ## Playlist
@@ -38,12 +31,13 @@ allowfullscreen>
 
 <div class="course-grid">
   {% for video in page.videos %}
+    {% assign vid = video.url | split: 'v=' | last | split: '&' | first %}
     <div class="course-card">
-      <a href="https://www.youtube.com/watch?v={{ video.id }}" target="_blank" rel="noopener noreferrer">
-        <img src="https://i.ytimg.com/vi/{{ video.id }}/hqdefault.jpg" alt="{{ video.title }}">
+      <a href="{{ video.url }}" target="_blank" rel="noopener noreferrer">
+        <img src="https://i.ytimg.com/vi/{{ vid }}/hqdefault.jpg" alt="{{ video.title }}">
       </a>
       <p class="course-title">
-        <a href="https://www.youtube.com/watch?v={{ video.id }}" target="_blank" rel="noopener noreferrer">{{ video.title }}</a>
+        <a href="{{ video.url }}" target="_blank" rel="noopener noreferrer">{{ video.title }}</a>
       </p>
     </div>
   {% endfor %}
