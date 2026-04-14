@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : #"bsky.app" # Replace this with you Bluesky username
+ # bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : "https://www.facebook.com/profile.php?id=100093455448922"
   flickr           : # Username
   foursquare       : # Username
@@ -67,14 +67,14 @@ author:
   instagram        : # Username
   lastfm           : # Username
   linkedin         :   "https://www.linkedin.com/in/ali-mezher-27b618286/"
-  mastodon         : # URL
+ # mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # 
+ # twitter          : # 
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
