@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* **Ph.D. in Mathematical Physics, Analysis of PDEs**, University of Texas at Austin, Department of Mathematics, College of Natural Sciences, 2023–Ongoing
+* **Ph.D. student in Applied Mathematics** at the University of Texas at Austin, Department of Mathematics, College of Natural Sciences, 2023–Ongoing
   Supervisor: **Professor Thomas Chen**
 
 * **M.S. in Mathematical Analysis of Nonlinear Dispersive PDEs**, Research Institute for Mathematical Sciences (RIMS), Kyoto University, 2020–2023
@@ -24,7 +24,7 @@ Education
 Work experience
 ======
 * **2023–Ongoing:** Teaching Assistant, Mathematics Department, University of Texas at Austin
-  * Teaching Assistant for Multi-variable calculus
+  * Teaching Assistant for Multivariable Calculus.
 
 * **2022–2023:** Teaching Assistant, Mathematics Department, Kyoto University
   * Advanced calculus teaching assistant with Professor Karel Svadlenka
@@ -35,15 +35,6 @@ Work experience
 * **2011–2020:** Mathematics Teacher, Ministry of Education of Iraq
   * Chosen to teach mathematics to high school students in the final stage since 2011
   * Chosen five times to monitor the central final exams in Iraq
-
-* **2009–2011:** English-Arabic Interpreter, and Advisor for the US Army, Global Linguistic Solutions
-  * Handled communication between the US Army platoon's leader and locals, ran meetings, and interpreted classes for Iraqi police experts
-  * Translated papers like invitations and announcements from and to English
-
-* **2016–2020:** Teaching English and Maths (Part-time)
-  * Established a Teaching Centre to improve Maths and English skills
-  * Lectured Calculus I & II, and Linear Algebra for Engineering and Science students
-  * Taught A1, A2, and B1 English levels using The New Headway English Course
 
 Workshops
 ======
