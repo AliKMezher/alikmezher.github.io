@@ -1,3 +1,4 @@
+---
 layout: archive
 title: "CV"
 permalink: /cv/
@@ -23,7 +24,7 @@ Education
 Work experience
 ======
 * **2023–Ongoing:** Teaching Assistant, Mathematics Department, University of Texas at Austin
-  * Teaching Assistant for Multivariable Calculus
+  * Teaching Assistant for Multi-variable calculus
 
 * **2022–2023:** Teaching Assistant, Mathematics Department, Kyoto University
   * Advanced calculus teaching assistant with Professor Karel Svadlenka
@@ -35,7 +36,7 @@ Work experience
   * Chosen to teach mathematics to high school students in the final stage since 2011
   * Chosen five times to monitor the central final exams in Iraq
 
-* **2009–2011:** English-Arabic Interpreter and Advisor for the US Army, Global Linguistic Solutions
+* **2009–2011:** English-Arabic Interpreter, and Advisor for the US Army, Global Linguistic Solutions
   * Handled communication between the US Army platoon's leader and locals, ran meetings, and interpreted classes for Iraqi police experts
   * Translated papers like invitations and announcements from and to English
 
@@ -62,13 +63,11 @@ Competences and Skills
 Publications
 ======
 * Mezher, Ali, A Trilinear Strichartz Estimate for the Modified Zakharov-Kuznetsov Equation with Application in Well-Posedness. Available at SSRN 4975916, 2024.
-* Joohy, Ali K., Ghassan A. Al-Juaifri, and Mohammed S. Mechee. "An Investigation of Solving Third-Order Nonlinear Ordinary Differential Equations in Complex Domain by Generalising the Prelle-Singer Method." International Journal of Differential Equations 2020.
+* Joohy, Ali K., Ghassan A. Al-Juaifri, and Mohammed S. Mechee. "An Investigation of Solving Third-Order Nonlinear Ordinary Differential Equation in Complex Domain by Generalising Prelle-Singer Method." International Journal of Differential Equations 2020.
 * Ali K. Joohy, Ordinary Differential Equations in Complex Domain with Application, 2018, Scholars' Press, ISBN-13:978-620-2-31082-6, ISBN-10:6202310820.
-* Mechee, M.S., Al-Juaifri, G.A., and Joohy, A.K., 2017. Modified homotopy perturbation method for solving generalized linear complex differential equations. Applied Mathematical Sciences, 11(51), pp.2527-2540.
+* Mechee, M.S., Al-Juaifri, G.A. and Joohy, A.K., 2017. Modified homotopy perturbation method for solving generalized linear complex differential equations. Applied Mathematical Sciences, 11(51), pp.2527-2540.
 
 Services
 ======
-* **Free Teaching:** Online Mathematics and English courses through the YouTube channel "Ali Joohy" (designed in 2014)
+* **Free Teaching:** Online Mathematics and English courses through YouTube channel "Ali Joohy" (designed in 2014)
 * Provided free additional Maths lectures and English lessons for final stage high school students
-AliMezher_CV.md
-Displaying AliMezher_CV.md.
