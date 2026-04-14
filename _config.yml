@@ -16,7 +16,7 @@ description              : &description "Ali Mezher's academic portfolio"   # Up
 url                      : https://alikmezher.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "alikmezher.github.io"   #"academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -58,7 +58,7 @@ author:
   # Social media
   artstation       : # Username
   bluesky          : #"bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
+  facebook         : "https://www.facebook.com/profile.php?id=100093455448922"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
