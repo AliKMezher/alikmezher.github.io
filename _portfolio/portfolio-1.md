@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "I am fascinated by how the universe works!"
+excerpt: "I was never satisfied with using things blindly, I would always go deep until I knew how things work from scratch. I am a kind of person who self-studied [CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html)  and [CCNP](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccnp-enterprise/index.html) "
 collection: portfolio
 ---
 
