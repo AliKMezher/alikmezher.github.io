@@ -1,5 +1,5 @@
 ---
-title: "Not, pairlI am fascinated by how the universe works!"
+title: "I am fascinated by how the universe works!"
 excerpt: ""
 collection: portfolio
 ---
