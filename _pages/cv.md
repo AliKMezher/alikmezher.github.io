@@ -58,5 +58,5 @@ Fundings, Awards, and Scholarships
 * **2020:** **MEXT Scholarship**
   Won one of the only three positions provided by the Japanese Ministry of Education, Culture, Sports, Science and Technology (MEXT) for Iraq in 2019
 
-* ** 2025-2026: Graduate School Continuing Excellence Followship**
+* **2025-2026: Graduate School Continuing Excellence Followship**
 
