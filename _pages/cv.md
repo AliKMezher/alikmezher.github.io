@@ -55,8 +55,8 @@ Workshops
 
 Fundings, Awards, and Scholarships 
 ======
-* **2020:** **MEXT Scholarship**
+* **2020:** **MEXT Scholarship from the Ministry of Education, Culture, Sports, Science and Technology of Japan**
   Won one of the only three positions provided by the Japanese Ministry of Education, Culture, Sports, Science and Technology (MEXT) for Iraq in 2019
 
-* **2025-2026: Graduate School Continuing Excellence Followship**
+* **2025-2026: Graduate School Continuing Excellence Fellowship from the School of Natural Sciences in the University of Texas at Austin**
 
