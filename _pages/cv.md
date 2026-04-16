@@ -46,6 +46,8 @@ Work experience as a Teaching Assistant
 * Linear Algebra, Mathematics Department, Kyoto University: 2021-2022.
 
 * Calculus I and II, Ministry of Education of Iraq: 2011-2020.
+
+  
 Workshops
 ======
 * **2024:** Particle interactive systems: Analysis and computational methods
