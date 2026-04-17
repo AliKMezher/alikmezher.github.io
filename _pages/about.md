@@ -30,10 +30,16 @@ Before joining UT Austin, I completed my M.Sc. in Applied Mathematics at Kyoto U
     <a href="{{ paper.paperurl }}"><b>{{ paper.title }}</b></a><br>
     {% if paper.author %}
       Authors: {{ paper.author }}<br>
-    {% elsif paper.authors %}
-      Authors: {{ paper.authors }}<br>
     {% endif %}
-    {% if paper.venue %}<em>{{ paper.venue }}</em>{% endif %}
+    
+    {% if paper.venue %}
+      {% if paper.venue contains "arXiv" %}
+        {{ paper.venue }}
+      {% else %}
+        Published in: <em>{{ paper.venue }}</em>
+      {% endif %}
+    {% endif %}
+
     {% if paper.date %} ({{ paper.date | date: "%Y" }}){% endif %}
   </li>
 {% endfor %}
