@@ -33,11 +33,7 @@ Before joining UT Austin, I completed my M.Sc. in Applied Mathematics at Kyoto U
     {% endif %}
     
     {% if paper.venue %}
-      {% if paper.venue contains "arXiv" %}
-        {{ paper.venue }}
-      {% else %}
-        Published in: <em>{{ paper.venue }}</em>
-      {% endif %}
+      Published in: <em>{{ paper.venue }}</em>
     {% endif %}
 
     {% if paper.date %} ({{ paper.date | date: "%Y" }}){% endif %}
