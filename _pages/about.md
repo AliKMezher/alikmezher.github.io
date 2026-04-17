@@ -23,7 +23,6 @@ Before joining UT Austin, I completed my M.Sc. in Applied Mathematics at Kyoto U
 
 ## Books and Lecture notes
 <hr />
-
 <ul>
 {% assign books_lectures = site.publications | where: "category", "books_lectures" | sort: "date" | reverse %}
 {% for item in books_lectures %}
@@ -35,17 +34,17 @@ Before joining UT Austin, I completed my M.Sc. in Applied Mathematics at Kyoto U
 {% endfor %}
 </ul>
 
-## Recent Journal Publications
+## Recent Works
 <hr />
-
-{% assign recent_papers = site.publications | where: "category", "journals" | sort: "date" | reverse %}
-
 <ul>
-{% for paper in recent_papers limit: 3 %}
+{% assign all_papers = site.publications | sort: "date" | reverse %}
+{% for paper in all_papers limit: 5 %}
+  {% if paper.category != "books_lectures" %}
   <li>
     <a href="{{ paper.url }}">{{ paper.title }}</a>
     {% if paper.venue %}<br><em>{{ paper.venue }}</em>{% endif %}
     {% if paper.date %} ({{ paper.date | date: "%Y" }}){% endif %}
   </li>
+  {% endif %}
 {% endfor %}
 </ul>
