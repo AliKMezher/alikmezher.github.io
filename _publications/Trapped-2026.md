@@ -5,9 +5,10 @@ layout: single
 category: manuscripts
 permalink: /Trapped-2026
 date: 2026-04-13
-venue: "arXiv — Thomas Chen and Ali Mezher"
+venue: "arXiv"
 paperurl: "https://arxiv.org/abs/2604.11756"
 featured: true
+excerpt: "**Authors:** Thomas Chen and Ali Mezher"
 ---
 
 ### Abstract
