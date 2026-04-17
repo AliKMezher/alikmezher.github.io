@@ -3,7 +3,7 @@ title: "An Investigation of Solving Third-Order Nonlinear Ordinary Differential 
 collection: publications
 layout: single
 category: manuscripts
-authors: "Ali Mezher (Ali Joohy), Ghassan A. Al-Juaifri, and Mohammed S. Mechee "
+authors: "Ali Mezher (=Ali Joohy), Ghassan A. Al-Juaifri, and Mohammed S. Mechee "
 permalink: /publication/2020-03-17-Prelle-Singer
 date: 2020-02-17
 venue: "International Journal of Differential Equations"
