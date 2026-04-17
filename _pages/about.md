@@ -25,10 +25,10 @@ Before joining UT Austin, I completed my M.Sc. in Applied Mathematics at Kyoto U
 {% assign recent_papers = site.publications | sort: "date" | reverse %}
 
 <ul>
-{% for paper in recent_papers limit: 5 %}
+{% for paper in recent_papers limit: 3 %}
   <li>
-    <a href="{{ paper.url }}"><b>{{ paper.title }}</b></a><br>
-    {{ paper.author }} 
+    <a href="{{ paper.paperurl }}"><b>{{ paper.title }}</b></a><br>
+    {{ paper.author }}
     {% if paper.venue %}<br><em>{{ paper.venue }}</em>{% endif %}
     {% if paper.date %} ({{ paper.date | date: "%Y" }}){% endif %}
   </li>
