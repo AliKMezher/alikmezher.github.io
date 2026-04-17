@@ -21,14 +21,29 @@ Before joining UT Austin, I completed my M.Sc. in Applied Mathematics at Kyoto U
 *Feel free to browse my [publications](/publications/), view my [CV](/cv/), or contact me by [email](mailto:alimezher@utexas.edu).*
 
 
-## Recent Works:
+## Books and Lecture notes
+<hr />
 
-{% assign recent_papers = site.publications | sort: "date" | reverse %}
+<ul>
+{% assign books_lectures = site.publications | where: "category", "books_lectures" | sort: "date" | reverse %}
+{% for item in books_lectures %}
+  <li>
+    <a href="{{ item.url }}">{{ item.title }}</a>
+    {% if item.venue %}<br><em>{{ item.venue }}</em>{% endif %}
+    {% if item.date %} ({{ item.date | date: "%Y" }}){% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+## Recent Journal Publications
+<hr />
+
+{% assign recent_papers = site.publications | where: "category", "journals" | sort: "date" | reverse %}
 
 <ul>
 {% for paper in recent_papers limit: 3 %}
   <li>
-    <a href="{{ paper.paperurl }}">{{ paper.title }}</a>
+    <a href="{{ paper.url }}">{{ paper.title }}</a>
     {% if paper.venue %}<br><em>{{ paper.venue }}</em>{% endif %}
     {% if paper.date %} ({{ paper.date | date: "%Y" }}){% endif %}
   </li>
