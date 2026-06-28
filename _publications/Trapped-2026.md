@@ -4,7 +4,7 @@ collection: publications
 layout: single
 category: manuscripts
 authors: "Thomas Chen and Ali Mezher"
-permalink: /Trapped-2026
+permalink: /chen2026trapped
 date: 2026-04-13
 venue: "arXiv"
 paperurl: "https://arxiv.org/abs/2604.11756"
