@@ -41,3 +41,27 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Selected navigation title: light theme */
+.masthead__menu-item.selected,
+.masthead__menu-item.selected > a {
+  background-color: transparent !important;
+}
+
+.masthead__menu-item.selected > a,
+.masthead__menu-item.selected > a:hover {
+  color: #176b87 !important;
+  border-bottom: 2px solid #176b87 !important;
+}
+
+/* Remove the additional hover underline on the selected title */
+.masthead__menu-item.selected > a::before {
+  display: none;
+}
+
+/* Selected navigation title: dark theme */
+html[data-theme="dark"] .masthead__menu-item.selected > a,
+html[data-theme="dark"] .masthead__menu-item.selected > a:hover {
+  color: #8ed6e8 !important;
+  border-bottom-color: #8ed6e8 !important;
+}
