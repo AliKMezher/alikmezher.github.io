@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-{% assign cv_pdf_url = '/files/AliMezher_CV.pdf' | relative_url %}
+{% assign cv_pdf_url = '/files/AliMezher_CV-phone.pdf' | relative_url %}
 
 <p>
   <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener">
