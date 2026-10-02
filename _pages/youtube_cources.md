@@ -1,0 +1,108 @@
+---
+layout: archive
+title: "YouTube Courses"
+permalink: /my-courses/youtube/
+author_profile: true
+---
+
+<style>
+  .course-card {
+    text-align: center;
+    display: block;
+  }
+  .course-title {
+    font-size: 1.25em; 
+    font-weight: bold; 
+    margin-top: 15px;
+    color: inherit; 
+    text-decoration: none !important;
+    border-bottom: none !important;
+    transition: opacity 0.2s;
+    display: inline-block;
+  }
+  .course-title:hover {
+    opacity: 0.8; 
+  }
+  .youtube-embed {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Keeps the perfect video shape */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: none;
+  }
+</style>
+
+<p style="font-size: 1.1em; margin-bottom: 20px;">Welcome to my courses. Watch below or click a title to view the full playlist on YouTube.</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; margin-top: 20px;">
+
+
+
+<div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8OdSVHBdRsv3CzZJNiUKG1O" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8OdSVHBdRsv3CzZJNiUKG1O" target="_blank" class="course-title">Advanced Real Analysis (التحليل الحقيقي المتقدم)</a>
+  </div>
+
+
+  
+  <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MvHnuMNUcAaE0xGpmsCMhO" target="_blank" class="course-title">Predective Modeling (االنمذجة التنبؤية)</a>
+  </div>
+
+  <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" class="course-title" style="direction: rtl;"> Analysis (Solutions of Royden) </a>
+  </div>
+
+
+  <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8O4UeB3l6a3kaCwX9S3CNOX" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8OdSVHBdRsv3CzZJNiUKG1O" target="_blank" class="course-title">(Principles of Mathematical Analysis)مبادئ التحليل الرياضي </a>
+  </div>
+
+    <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8OldSDOLanwKz6-x70qZVk4" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" class="course-title" style="direction: rtl;"> (Systems of ordinary differential equations) أنظمة المعادلات التفاضلية الاعتيادية </a>
+  </div>
+
+   <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8OjBJf0w6ge2C0rvp_eI3QT" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8OjBJf0w6ge2C0rvp_eI3QT" target="_blank" class="course-title" style="direction: rtl;"> Calculus I </a>
+  </div>
+
+    <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8NtOR_uFC5EocbCu9uyqkEO" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" class="course-title" style="direction: rtl;"> Probability and Statistics </a>
+  </div>
+
+
+    <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8MHxrNlqZV2uvAwlj0w4qu0" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" class="course-title" style="direction: rtl;"> Abstract Algebra </a>
+  </div>
+  
+  <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8MNESU4n88GFcEPaUMmEQ7q" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" class="course-title" style="direction: rtl;"> Classical Mechanics </a>
+  </div>
+
+    <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8OuhUmco30mW3rET8P5pET2" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" class="course-title" style="direction: rtl;"> Calculus II </a>
+  </div>
+  
+
+  
+  <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8P6xlE_VpA8CFwX4NAovRZA" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" class="course-title" style="direction: rtl;"> Calculus III </a>
+  </div>
+
+    
+  <div class="course-card">
+    <iframe class="youtube-embed" src="https://www.youtube.com/embed/videoseries?list=PL7nhsj3rJk8OaqbNuZs222lRbc-cR3OSQ" allowfullscreen></iframe>
+    <a href="https://www.youtube.com/playlist?list=PL7nhsj3rJk8MI6AiyCDL833dmzo-_dIUW" target="_blank" class="course-title" style="direction: rtl;"> Discrete Mathematics and Mathematical Logic </a>
+  </div>
+
+</div>
