@@ -24,5 +24,5 @@ Furthermore, the von Neumann entropy of the macroscopic one-particle density mat
 \begin{equation*}
     \lim_{T\to\infty}S[\kappa_T]=0 \, ,
 \end{equation*}
-without any claim of monotonicity in $T$. Thus, any initially mixed, positive-entropy state ($0<S[\kappa_0]<\infty$) is purified to the ground state $\ket{\chi_0}\bra{\chi_0}$. For the proof, we derive the Hartree hierarchy of the coupled system of bosons and photons from the finite-$N$ BBGKY hierarchy of the microscopic quantum many-body system, establishing trace-norm convergence in the mean-field limit as $N\to\infty$. The limits
+without any claim of monotonicity in $T$. Thus, any initially mixed, positive-entropy state ($0 \lt S[\kappa_0] \lt \infty$) is purified to the ground state $\ket{\chi_0}\bra{\chi_0}$. For the proof, we derive the Hartree hierarchy of the coupled system of bosons and photons from the finite-$N$ BBGKY hierarchy of the microscopic quantum many-body system, establishing trace-norm convergence in the mean-field limit as $N\to\infty$. The limits
 are taken successively: first $N\to\infty$, then the weak-coupling limit, and finally $T\to\infty$. Although the global particle-field evolution remains unitary, the macroscopic one-particle state converges to a pure state as energy and correlations are continuously radiated into the dispersive field.
