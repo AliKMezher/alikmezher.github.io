@@ -1,1 +1,307 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+\moderncvcolor{blue}
+\moderncvstyle[nosymbols]{classic}
+% Exact color operands extracted from cv_2025.pdf.
+\definecolor{color0}{rgb}{0,0,0}
+\definecolor{CVBlue}{rgb}{0.22,0.45,0.70}
+\colorlet{color1}{CVBlue}
+% Bind the heading bars explicitly for moderncv versions with a separate rule color.
+\colorlet{bodyrulecolor}{CVBlue}
+\colorlet{sectioncolor}{CVBlue}
+\colorlet{subsectioncolor}{CVBlue}
+\definecolor{color2}{rgb}{0.45,0.45,0.45}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[left=59.527bp,right=59.527bp,top=58.58bp,bottom=84.189bp]{geometry}
+\usepackage{needspace}
 
+\setlength{\hintscolumnwidth}{60.15bp}
+\setlength{\separatorcolumnwidth}{8.59bp}
+\setlength{\emergencystretch}{2em}
+\setlength{\footskip}{16.01bp}
+\renewcommand*{\sectionfont}{\fontsize{14.4}{18}\selectfont\mdseries\upshape}
+% Explicit bindings keep every heading blue regardless of class/theme defaults.
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\textcolor{CVBlue}{#1}}}
+\renewcommand*{\subsectionstyle}[1]{{\subsectionfont\textcolor{CVBlue}{#1}}}
+\renewcommand*{\hintfont}{\fontsize{10}{12}\selectfont}
+\renewcommand*{\pagenumberfont}{\small\itshape}
+\name{Ali}{Mezher}
+\title{Curriculum Vitae}
+\email{alimezher@math.utexas.edu}
+\homepage{alikmezher.github.io}
+\AtEndPreamble{\hypersetup{pdftitle={Ali Mezher | Curriculum Vitae},pdfauthor={Ali Mezher},
+  pdfsubject={Academic curriculum vitae},
+  pdfkeywords={mathematical physics, PDEs, Bose-Einstein condensation},
+  colorlinks=true,urlcolor=black,linkcolor=color2}\urlstyle{same}}
+\raggedbottom
+
+% Compact, nonbreaking entries: date/label at left and content at right.
+\newcommand{\entry}[3]{\needspace{3\baselineskip}\cvitem[4pt]{#1}{\textbf{#2}\newline #3}}
+\newcommand{\detail}[1]{\cvitem[3pt]{}{\textbullet\enspace #1}}
+% \newcommand{\pubheading}[1]{\needspace{4\baselineskip}\cvitem[4pt]{}
+% {\textcolor{CVBlue}{\fontsize{12}{14}\selectfont #1}}}
+% \newcommand{\pub}[1]{\par\noindent\hangindent=1em\hangafter=1\textendash\enspace #1\par\vspace{4pt}}
+\newcounter{pubnumber}
+\newcommand{\pubprefix}{}
+
+\newcommand{\pubheading}[2][]{%
+  \setcounter{pubnumber}{0}%
+  \renewcommand{\pubprefix}{#1}%
+  \needspace{4\baselineskip}%
+  \cvitem[4pt]{}{%
+    \textcolor{CVBlue}{\fontsize{12}{14}\selectfont #2}}%
+}
+
+\newcommand{\pub}[1]{%
+  \stepcounter{pubnumber}%
+  \par\noindent
+  \hangindent=3em
+  \hangafter=1
+  \makebox[3em][l]{[\pubprefix\arabic{pubnumber}]}%
+  #1\par\vspace{4pt}%
+}
+
+
+
+
+
+
+
+
+
+\begin{document}
+\fontsize{10}{12}\selectfont
+\recomputelengths
+
+% Header follows the reference's large name at left and quiet contact block at right.
+\noindent
+\begin{minipage}[b]{0.34\textwidth}
+  \raggedright
+  {\fontsize{34}{24.96}\selectfont\mdseries Ali Mezher\par}
+  \vspace{3.68pt}
+  {\fontsize{17.28}{22}\selectfont\itshape\color{color2}Curriculum Vitae\par}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.64\textwidth}
+  \raggedleft\fontsize{9}{11}\selectfont\itshape\color{color2}
+  Department of Mathematics\par
+  The University of Texas at Austin\par
+  Office: PMA 11.146\par
+  2515 Speedway, Stop C1200\par
+  Austin, TX 78712, USA\par
+  \href{mailto:alimezher@math.utexas.edu}{\color{color2}alimezher@utexas.edu}\par
+  \href{https://www.alimezher.com/}{\color{color2}www.alimezher.com}
+  \enspace\textbar\enspace
+  \href{https://scholar.google.com/citations?user=1lPK2k8AAAAJ}{\color{color2}Google Scholar}
+  \enspace\textbar\enspace
+  \href{https://orcid.org/0000-0002-9215-1804}{\color{color2}ORCID}\par
+  %+1 (737) 297-6837\par
+\end{minipage}
+\par\vspace{36pt}
+
+\section{Research interests}
+\cvitem{}{Mathematical physics and analysis of nonlinear PDEs; scaling and mean-field limits of
+  quantum dynamical systems; spectral and dynamical problems in quantum field theory;
+  coupled particle--radiation dynamics, nonlinear resonance cascades, and radiative
+  Bose--Einstein condensation. Current research interests also include entropy vanishing,
+  purification of quantum states, and local well-posedness for nonlinear dispersive equations.}
+
+\section{Education}
+\entry{2023--present}{Ph.D. studies in Mathematics, \textnormal{\textit{The University of Texas at Austin}}}
+  {Department of Mathematics, College of Natural Sciences.\newline
+  Research areas: mathematical physics and analysis of PDEs.\newline
+  Advisor: \href{https://web.ma.utexas.edu/users/tc/}{Thomas Chen}.}
+\entry{2020--2023}{M.Sc. in Applied Mathematics, \textnormal{\textit{Kyoto University}}}
+  {\href{https://www.kurims.kyoto-u.ac.jp/en/index.html}{Research Institute for Mathematical Sciences (RIMS)}.\newline
+  Specialization: mathematical analysis of nonlinear dispersive PDEs.\newline
+  Advisor: \href{https://www.kurims.kyoto-u.ac.jp/en/list/nakanishi.html}{Kenji Nakanishi}.}
+\entry{2015--2018}{M.Sc. in Applied Mathematics, \textnormal{\textit{University of Kufa}}}
+  {\href{https://mathcomp.uokufa.edu.iq/en}{Faculty of Computer Science and Mathematics}.\newline
+  Research focus: ordinary differential equations in the complex domain.}
+\entry{2005--2009}{B.Sc. in Mathematical Sciences, \textnormal{\textit{University of Al-Qadisiyah}}}
+  {College of Science.}
+
+
+
+
+
+
+\section{Publications and preprints}
+\cvitem[4pt]{}{\small\color{color2}Earlier publications appeared under the name Ali K. Joohy.}
+\pubheading[P]{Preprints and submitted manuscripts}\smallskip
+\pub{Thomas Chen and \textbf{Ali Mezher}. 
+\href{https://arxiv.org/abs/2610.17923}{Dynamical BEC formation and vanishing entropy for trapped bosons in non-relativistic QED via nonlinear resonance cascades}.
+2026. 	arXiv:2610.17923. \emph{Preprint}.}
+\smallskip
+\pub{Thomas Chen and \textbf{Ali Mezher}.
+  \href{https://arxiv.org/abs/2604.11756}{Trapped bosons in mean field QED, nonlinear resonance cascades and dynamical BEC formation}.
+  2026. arXiv:2604.11756. \emph{Submitted}.}
+\smallskip
+\pub{\textbf{Ali Mezher}.
+  \href{https://arxiv.org/abs/2407.04850}{On the modified Zakharov--Kuznetsov equation on the cylinder: A trilinear Bourgain-space estimate and its application to local well-posedness}.
+  2026 revision. arXiv:2407.04850. \emph{Submitted}.}
+  \smallskip
+%\section{Publications and preprints (continued)}
+\pubheading[J]{Journal articles}
+\pub{Ali K. Joohy (\textbf{Ali Mezher}), Ghassan A. Al-Juaifri, and Mohammed S. Mechee.
+  \href{https://doi.org/10.1155/2020/5276024}{An Investigation of Solving Third-Order Nonlinear Ordinary Differential Equation in Complex Domain by Generalising Prelle--Singer Method}.
+  \emph{International Journal of Differential Equations}, 2020, Article ID 5276024, (peer-reviewed).}
+  \smallskip
+
+\pub{Mohammed S. Mechee, Ghassan A. Al-Juaifri, and Ali K. Joohy (\textbf{Ali Mezher}).
+  \href{http://www.m-hikari.com/ams/ams-2017/ams-49-52-2017/p/mecheeAMS49-52-2017.pdf}{Modified homotopy perturbation method for solving generalized linear complex differential equations}.
+  \emph{Applied Mathematical Sciences}, 11(51), 2527--2540, 2017.}
+
+
+  \bigskip
+%\pubheading[B]{Books and Lecture notes}
+\pubheading[B]{Book}
+\pub{Ali K. Joohy (\textbf{Ali Mezher}).
+  \href{https://www.amazon.com/dp/6202310820}
+  {\emph{Ordinary Differential Equations in Complex Domain with Applications}}.
+  Scholars' Press, 2018. ISBN: 978-620-2-31082-6.}
+
+\section{Research presentations}
+\entry{Sept. 4, 2026}{\href{https://alikmezher.github.io/talks/resonance-talk/}{Dynamical Relaxation in Non-Relativistic QED: Resonances and Metastable States}}
+  {J. Analysis Seminar, Department of Mathematics, The University of Texas at Austin.}
+
+
+
+
+
+\section{Scholarships and fellowships}
+\entry{2025--2026}{Graduate School Continuing Excellence Fellowship}
+  {College of Natural Sciences, The University of Texas at Austin.}
+\entry{2020}{Japanese Government (MEXT) Scholarship}
+  {Selected in 2020 for one of three scholarship places offered to Iraq by Japan's Ministry
+  of Education, Culture, Sports, Science and Technology.}
+
+
+
+
+
+
+
+\section{Summer schools and academic training}
+\entry{June 2024}{\href{https://www.slmath.org/workshops/1035}{Particle Interactive Systems: Analysis and Computational Methods}}
+  {Summer Graduate School, Simons Laufer Mathematical Sciences Institute (SLMath),
+  Berkeley, California. June 17--28, 2024.
+  \href{https://www.slmath.org/people/66438?reDirectFrom=link}{Participant}.}
+
+
+
+
+
+  
+\section{Teaching assistantships}
+\cvitem[4pt]{2023--present}{%
+  \textbf{Department of Mathematics, The University of Texas at Austin}}
+\cvitem[3pt]{Fall 2026}{Differential Equations with Linear Algebra.}
+\cvitem[3pt]{Spring 2026}{Discrete Mathematics; Linear Algebra and Matrix Theory.}
+\cvitem[3pt]{Fall 2025}{Scientific Computations in Numerical Analysis.}
+\cvitem[3pt]{Summer 2025}{Differential Equations with Linear Algebra.}
+\cvitem[3pt]{Spring 2025}{Scientific Computations in Numerical Analysis.}
+\cvitem[3pt]{Fall 2024}{Differential Equations with Linear Algebra.}
+\cvitem[3pt]{Spring 2024}{Probability I.}
+\cvitem[3pt]{Fall 2023}{Probability I.}
+
+\cvitem[4pt]{2021--2023}{%
+  \textbf{Research Institute for Mathematical Sciences (RIMS), Kyoto University}}
+\cvitem[3pt]{2023}{Advanced Calculus (Analysis I) with Karel Svadlenka.}
+\cvitem[3pt]{2022}{Linear Algebra with Benoit Collins.}
+\cvitem[3pt]{2022}{Advanced Calculus (Analysis I) with Karel Svadlenka.}
+\cvitem[3pt]{2021}{Linear Algebra with Benoit Collins.}
+
+
+
+
+
+
+\section{Independent online instruction}
+\cvitem[4pt]{}{\textbf{Provided private online instruction, including
+  complete courses, to students enrolled at the institutions
+  listed below:}}
+
+\cvitem[3pt]{2025}{Graduate course in Harmonic Analysis (University of Warwick).}
+\cvitem[3pt]{2025}{Graduate course in Predictive Modeling for Engineering (University of Warwick).}
+
+\cvitem[3pt]{2024}{Graduate course in Complex Analysis (Tohoku University).}
+\cvitem[3pt]{2024}{Graduate course in Real Analysis (Indiana University).}
+\cvitem[3pt]{2022--2024}{Graduate course in Functional Analysis (King Abdulaziz University).}
+\cvitem[3pt]{2022--2023}{Graduate course in Nonlinear Dispersive Equations (King Abdulaziz University).}
+\cvitem[3pt]{2021--2023}{Graduate course in Real Analysis (King Abdulaziz University).}
+
+\cvitem[3pt]{2023}{Introductory course in Partial Differential Equations (King Abdulaziz University).}
+
+\cvitem[3pt]{2020}{Introductory course in Differential Geometry (University of Virginia).}
+
+\cvitem[3pt]{2019}{Graduate course in Nonlinear Systems of Ordinary Differential Equations (University of Virginia).}
+\cvitem[3pt]{2019}{Graduate course in Real Analysis (University of Virginia).}
+
+
+\section{School teaching}
+\needspace{4\baselineskip}
+\cvitem[4pt]{2011--2020}{%
+  \textbf{Mathematics Teacher,}
+  \textit{Ministry of Education, Iraq}}
+
+\detail{Selected to teach senior high-school mathematics from the first year of appointment.}
+\detail{Served as chair of the audit committee from the first year of appointment.}
+\detail{Served as a school counselor for seven years.}
+\detail{Selected on five occasions to supervise national final examinations for senior high-school students.}
+
+
+
+
+\section{Educational leadership and outreach}
+\entry{2016--2020}{Founder and Instructor, \textnormal{\textit{Private Teaching Center, Thi-Qar, Iraq}}}
+  {Established a center offering mathematics and English instruction; taught part-time.}
+\detail{Taught Calculus I and II and Linear Algebra to engineering and science students.}
+\detail{Taught English at levels A1--C1, covering reading, writing, listening, and speaking,
+  using the \emph{New Headway English Course} series.}
+\entry{Est. 2014}{Educational Content Creator, \textnormal{\textit{\href{https://www.youtube.com/c/AliJoohy/videos}{Ali Joohy YouTube Channel}}}}
+  {Developed freely accessible mathematics and English courses. The Arabic mathematics
+  portfolio includes real analysis, ordinary differential equations and systems, Calculus I--III,
+  probability and statistics, abstract algebra, classical mechanics, discrete mathematics,
+  and mathematical logic.}
+\entry{}{Volunteer Teaching}
+  {Provided free supplementary mathematics lectures for secondary-school students and
+  syllabus-based English lessons for final-year secondary-school students.}
+
+
+
+
+
+
+\section{Additional professional experience}
+\entry{2009--2011}{English--Arabic Interpreter and Advisor, \textnormal{\textit{Global Linguistic Solutions}}}
+  {Imam Ali (Tallil) Air Base, Thi-Qar, Iraq.}
+\detail{Facilitated communication between U.S. Army platoon leadership and local residents
+  during field missions.}
+\detail{Coordinated and interpreted formal and informal meetings between U.S. and Iraqi
+  military personnel.}
+\detail{Interpreted training delivered by U.S. specialists to Iraqi police personnel and
+  translated accompanying lecture notes.}
+\detail{Translated invitations, announcements, and other correspondence between English and Arabic.}
+\entry{2012--2015}{Independent Internet Service Operator and Network Administrator}
+  {Operated an internet service providing connectivity to approximately
+  700--1,000 users.}
+\detail{Procured upstream bandwidth from an internet service provider and
+  configured PPPoE connections for subscriber access.}
+\detail{Independently configured, administered, and maintained network
+  infrastructure, including routing, switching, and wireless connectivity.}
+\detail{Managed subscriber databases and authentication servers,
+  including user accounts and network access control.}
+
+
+
+
+
+
+
+\section{Technical skills and languages}
+\cvitem[4pt]{Computing}{C, Python, Mathematica.}
+\cvitem{Languages}{Arabic, English, Japanese (basic).}
+
+\end{document}
