@@ -43,9 +43,11 @@
 \newcommand{\pubheading}[1]{%
   \needspace{5\baselineskip}%
   \cvitem[4pt]{}{\textcolor{CVBlue}{\bfseries #1}}}
-\newcommand{\pub}[2]{%
+\newcounter{pubnumber}
+\newcommand{\pub}[1]{%
   \needspace{4\baselineskip}%
-  \cvitem[5pt]{[#1]}{#2}}
+  \stepcounter{pubnumber}%
+  \cvitem[5pt]{[\arabic{pubnumber}]}{#1}}
 \newcommand{\groupheading}[1]{%
   \needspace{5\baselineskip}%
   \cvitem[4pt]{}{\textbf{#1}}}
@@ -96,26 +98,26 @@ condensation; entropy vanishing, purification of quantum states, and local well-
 \cvitem[5pt]{}{\small\color{color2}Earlier publications appeared under the name Ali K. Joohy.}
 
 \pubheading{Preprints and submitted manuscripts}
-\pub{1}{Thomas Chen and \textbf{Ali Mezher}.
+\pub{Thomas Chen and \textbf{Ali Mezher}.
   \href{https://arxiv.org/abs/2610.17923}{Dynamical BEC formation and vanishing entropy for trapped bosons in non-relativistic QED via nonlinear resonance cascades}.
   2026. arXiv:2610.17923. \emph{Preprint}.}
-\pub{2}{Thomas Chen and \textbf{Ali Mezher}.
-  \href{https://arxiv.org/abs/2604.11756}{Trapped bosons in mean-field QED, nonlinear resonance cascades, and dynamical BEC formation}.
+\pub{Thomas Chen and \textbf{Ali Mezher}.
+  \href{https://arxiv.org/abs/2604.11756}{Trapped bosons in mean field QED, nonlinear resonance cascades and dynamical BEC formation}.
   2026. arXiv:2604.11756. \emph{Submitted}.}
-\pub{3}{\textbf{Ali Mezher}.
+\pub{\textbf{Ali Mezher}.
   \href{https://arxiv.org/abs/2407.04850}{On the modified Zakharov--Kuznetsov equation on the cylinder: A trilinear Bourgain-space estimate and its application to local well-posedness}.
   2026 revision. arXiv:2407.04850. \emph{Submitted}.}
 
-%\pubheading{Journal articles}
-\pub{4}{\textbf{Ali K. Joohy}, Ghassan A. Al-Juaifri, and Mohammed S. Mechee.
+\pubheading{Journal articles}
+\pub{\textbf{Ali K. Joohy}, Ghassan A. Al-Juaifri, and Mohammed S. Mechee.
   \href{https://doi.org/10.1155/2020/5276024}{An Investigation of Solving Third-Order Nonlinear Ordinary Differential Equation in Complex Domain by Generalising Prelle--Singer Method}.
   \emph{International Journal of Differential Equations}, 2020, Article ID 5276024.}
-\pub{5}{Mohammed S. Mechee, Ghassan A. Al-Juaifri, and \textbf{Ali K. Joohy}.
+\pub{Mohammed S. Mechee, Ghassan A. Al-Juaifri, and \textbf{Ali K. Joohy}.
   \href{http://www.m-hikari.com/ams/ams-2017/ams-49-52-2017/p/mecheeAMS49-52-2017.pdf}{Modified homotopy perturbation method for solving generalized linear complex differential equations}.
   \emph{Applied Mathematical Sciences}, 11(51), 2527--2540, 2017.}
 
 \pubheading{Book}
-\pub{6}{\textbf{Ali K. Joohy}.
+\pub{\textbf{Ali K. Joohy}.
   \href{https://www.amazon.com/dp/6202310820}{\emph{Ordinary Differential Equations in Complex Domain with Applications}}.
   Scholars' Press, 2018. ISBN: 978-620-2-31082-6.}
 
