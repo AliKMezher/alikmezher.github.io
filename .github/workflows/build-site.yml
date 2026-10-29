@@ -1,1 +1,73 @@
+name: Build website and CV
 
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pages: read
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Compile LaTeX CV
+        uses: xu-cheng/latex-action@v4
+        with:
+          working_directory: _cv
+          root_file: main.tex
+
+      - name: Copy PDF into website files
+        run: |
+          mkdir -p files
+          cp _cv/main.pdf files/AliMezher_CV.pdf
+
+      - name: Build Jekyll website
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Verify the published CV
+        run: cmp _cv/main.pdf _site/files/AliMezher_CV.pdf
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4
